@@ -1,0 +1,49 @@
+@font-face {
+    font-family: mycursivefont;
+    src: url(monsieur-la-doulaise/MonsieurLaDoulaise-Regular.ttf);
+}
+
+body {
+    background-color: lavender;
+    background-image: url("images/DSC_0478.JPG");
+    background-repeat: no-repeat; 
+    background-size: 110vw 110vh;
+    background-position-x: -10vw;
+    height:100vh;
+    width:100vw;
+}
+
+h1 {
+     font-family: mycursivefont;
+     font-size: 5.5em;
+     text-align: center;
+ }
+ 
+ p {   
+    font-size: 1.3em;
+}
+
+
+ 
+.navbar {
+    background-color: lavender;
+}
+ 
+ 
+ 
+.carousel img {
+    width: auto;
+    max-height: 500px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.well{
+    background:rgba(230,230,250,0.7);
+}
+
+#mainText {
+    margin-top:35px;
+}
